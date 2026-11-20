@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ITC_DEV — программалоо жана жасалма интеллект академиясы">
+  <title>ITC_DEV | Келечек ушул жерден башталат</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <a href="#" class="logo"><span>ITC</span>_DEV<span class="dot">.</span></a>
+
+  <nav class="nav" id="nav">
+    <a href="#home">Башкы бет</a>
+    <a href="#courses">Курстар</a>
+    <a href="#about">Биз жөнүндө</a>
+    <a href="#projects">Долбоорлор</a>
+    <a href="#contact">Байланыш</a>
+  </nav>
+
+  <div class="header-actions">
+    <button class="theme-btn" id="themeBtn" aria-label="Тема өзгөртүү">☼</button>
+    <a href="#courses" class="btn btn-small">Баштоо ↗</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Меню">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="eyebrow"><span class="live-dot"></span> IT COMMUNITY • 2026</div>
+      <h1>Келечекти<br> <span class="gradient">код менен</span><br>кур.</h1>
+      <p class="hero-text">
+        Программалоону үйрөн. Жасалма интеллектти колдон.
+        Өз идеяларыңды чыныгы долбоорго айландыр.
+      </p>
+      <div class="hero-buttons">
+        <a href="#courses" class="btn">Курстарды көрүү <span>↗</span></a>
+        <a href="#about" class="btn btn-outline">Биз жөнүндө</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>01</strong><small>Үйрөн</small></div>
+        <div><strong>02</strong><small>Практика жаса</small></div>
+        <div><strong>03</strong><small>Өнүктүр</small></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="code-card">
+        <div class="code-top"><span></span><span></span><span></span><small>future.js</small></div>
+        <div class="code-body">
+          <p><span class="purple">const</span> future = {</p>
+          <p class="indent">skills: <span class="green">'Programming'</span>,</p>
+          <p class="indent">power: <span class="green">'AI'</span>,</p>
+          <p class="indent">dream: <span class="green">'Developer'</span></p>
+          <p>};</p>
+          <br>
+          <p><span class="purple">function</span> <span class="blue">buildFuture</span>() {</p>
+          <p class="indent">return <span class="green">'Start today!'</span>;</p>
+          <p>}</p>
+          <br>
+          <p class="cursor-line">buildFuture();<span class="cursor">|</span></p>
+        </div>
+      </div>
+      <div class="floating-tag tag-one">⚡ JavaScript</div>
+      <div class="floating-tag tag-two">✦ Artificial Intelligence</div>
+      <div class="floating-tag tag-three">{"< />"} Web Development</div>
+    </div>
+    <div class="scroll-label">SCROLL TO EXPLORE ↓</div>
+  </section>
+
+  <section class="ticker">
+    <div>HTML <span>✦</span> CSS <span>✦</span> JAVASCRIPT <span>✦</span> PYTHON <span>✦</span> AI <span>✦</span> WEB DEVELOPMENT <span>✦</span> REPEAT <span>✦</span></div>
+  </section>
+
+  <section class="section courses-section" id="courses">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">WHAT YOU CAN LEARN</div>
+        <h2>Билимиңди <span class="gradient">жаңы деңгээлге</span><br>чыгар.</h2>
+      </div>
+      <p>Теория менен гана чектелбе. Реалдуу долбоорлорду жасап, тажрыйба топто.</p>
+    </div>
+
+    <div class="course-grid">
+      <article class="course-card">
+        <div class="course-icon purple-bg">⌘</div>
+        <div class="course-number">01 / DEVELOPMENT</div>
+        <h3>Frontend Development</h3>
+        <p>HTML, CSS жана JavaScript аркылуу заманбап веб-сайттарды түз.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <button class="course-link" data-course="frontend">Кененирээк <span>↗</span></button>
+      </article>
+
+      <article class="course-card featured">
+        <div class="popular">POPULAR</div>
+        <div class="course-icon blue-bg">✳</div>
+        <div class="course-number">02 / INTELLIGENCE</div>
+        <h3>Artificial Intelligence</h3>
+        <p>AI куралдарын колдонуп, идеяларды акылдуу чечимдерге айландыр.</p>
+        <div class="tags"><span>ChatGPT</span><span>Prompt</span><span>AI Tools</span></div>
+        <button class="course-link" data-course="ai">Кененирээк <span>↗</span></button>
+      </article>
+
+      <article class="course-card">
+        <div class="course-icon orange-bg">⌘</div>
+        <div class="course-number">03 / PROGRAMMING</div>
+        <h3>Python Development</h3>
+        <p>Программалоонун негиздерин үйрөнүп, пайдалуу программаларды жаз.</p>
+        <div class="tags"><span>Python</span><span>Logic</span><span>Projects</span></div>
+        <button class="course-link" data-course="python">Кененирээк <span>↗</span></button>
+      </article>
+    </div>
+  </section>
+
+  <section class="about-section section" id="about">
+    <div class="about-visual">
+      <div class="about-glow"></div>
+      <div class="big-symbol">&lt;/&gt;</div>
+      <div class="mini-window">
+        <span class="green">●</span> Learning mode: <b>ON</b>
+        <div class="progress"><span></span></div>
+        <small>YOUR FUTURE IS LOADING...</small>
+      </div>
+    </div>
+    <div class="about-content">
+      <div class="eyebrow">WHY ITC_DEV?</div>
+      <h2>Жөн гана үйрөнбө.<br><span class="gradient">Жасап көр.</span></h2>
+      <p>ITC_DEV — программалоого жана жаңы технологияларга кызыккандар үчүн билим жана тажрыйба аянтчасы.</p>
+      <div class="feature-list">
+        <div><span>01</span><p><b>Практикалык билим</b><small>Ар бир теманы иш жүзүндө колдон.</small></p></div>
+        <div><span>02</span><p><b>Реалдуу долбоорлор</b><small>Өзүңдүн портфолиоңду түз.</small></p></div>
+        <div><span>03</span><p><b>AI мүмкүнчүлүктөрү</b><small>Жаңы технологиялар менен иште.</small></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects-section" id="projects">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">BUILD SOMETHING REAL</div>
+        <h2>Идеядан <span class="gradient">долбоорго.</span></h2>
+      </div>
+      <p>Өзүң жасай ала турган долбоорлорго мисалдар.</p>
+    </div>
+    <div class="project-grid">
+      <div class="project-card project-one">
+        <div class="project-art">◈</div>
+        <div class="project-info"><span>WEB DEVELOPMENT</span><h3>Personal Portfolio</h3><p>Өзүңдүн IT дүйнөдөгү визиткаң.</p></div>
+      </div>
+      <div class="project-card project-two">
+        <div class="project-art">⌁</div>
+        <div class="project-info"><span>JAVASCRIPT</span><h3>Smart Dashboard</h3><p>Маалыматты интерактивдүү башкаруу.</p></div>
+      </div>
+      <div class="project-card project-three">
+        <div class="project-art">✳</div>
+        <div class="project-info"><span>ARTIFICIAL INTELLIGENCE</span><h3>AI Assistant</h3><p>Жасалма интеллект менен иштөө.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quiz-section section">
+    <div class="quiz-box">
+      <div class="eyebrow">TEST YOUR KNOWLEDGE</div>
+      <h2>Кичинекей <span class="gradient">IT тест.</span></h2>
+      <p>JavaScript кайсы максатта колдонулат?</p>
+      <div class="quiz-options">
+        <button class="quiz-option" data-answer="wrong">Сүрөт тартуу үчүн гана</button>
+        <button class="quiz-option" data-answer="correct">Веб-сайтка интерактивдүүлүк кошуу үчүн</button>
+        <button class="quiz-option" data-answer="wrong">Компьютерди күйгүзүү үчүн</button>
+      </div>
+      <div id="quizResult" class="quiz-result" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="contact-section section" id="contact">
+    <div class="eyebrow">LET'S CONNECT</div>
+    <h2>Келечегиңди <span class="gradient">бүгүн башта.</span></h2>
+    <p>IT дүйнөсүнө биринчи кадамыңды жаса. Биз менен бирге өнүк.</p>
+    <a class="btn" href="https://t.me/ITC_DEV" target="_blank" rel="noopener">Telegram каналга өтүү ↗</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#" class="logo"><span>ITC</span>_DEV<span class="dot">.</span></a>
+  <p>© 2026 ITC_DEV. Үйрөн. Жаса. Өнүктүр.</p>
+  <a href="#home">Жогору ↑</a>
+</footer>
+
+<div class="modal" id="courseModal" aria-hidden="true">
+  <div class="modal-content">
+    <button class="modal-close" id="modalClose" aria-label="Жабуу">×</button>
+    <div class="eyebrow">COURSE DETAILS</div>
+    <h2 id="modalTitle">Курс</h2>
+    <p id="modalDescription"></p>
+    <a href="#contact" class="btn" id="modalAction">Кызыгам ↗</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
